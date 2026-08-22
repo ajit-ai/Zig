@@ -12,11 +12,8 @@ pub fn main() !void {
     var u: bool = undefined;
     u = true;
 
-    _ = c;
-    _ = inferred;
-
     //print the value of each constant
-    print("c: {}", c);
-    print("v: {}", v);
-    print("inferred: {}", inferred);
+    print("c: {}\n", .{c});
+    print("v: {}\n", .{v});
+    print("inferred: {}\n", .{inferred});
 }
